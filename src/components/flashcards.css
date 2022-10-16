@@ -1,0 +1,40 @@
+.flashcards {
+  margin: auto;
+  font-size: calc(10px + 0.5vmin);
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flashcard {
+  width: 500px;
+  text-align: center;
+  margin: 20px 20px;
+  padding: 30px 20px;
+  background-color: rgba(109, 162, 221, 0.322);
+  border-radius: 20px;
+}
+
+.flashcard-icon {
+  width: 60px;
+  pointer-events: none;
+}
+
+@-webkit-keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=flashcards.css.map */
